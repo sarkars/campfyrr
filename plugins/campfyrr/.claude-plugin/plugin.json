@@ -1,5 +1,6 @@
 {
   "name": "campfyrr",
+  "version": "0.1.0",
   "description": "Shared team memory for Claude Code: every teammate's sessions know what the others are changing, what was decided and what was assumed, and the rest of the company follows the work from a link. Never stores your code.",
   "author": {
     "name": "Campfyrr",
