@@ -20,7 +20,7 @@ Or paste the one command on https://campfyrr.vercel.app/connect?ref=github into 
 - **News at each request:** answers to your agent's assumptions, work it waited on that landed, decisions that clashed.
 - **A handoff when a session stops half-way,** and the reasons for each change, linked from the pull request.
 
-It doesn't run agents, run tests, or replace your tracker or CI. Free during early access; then free for one person, $9 per developer a month for teams, and business teammates free. [Pricing](https://campfyrr.vercel.app/pricing?ref=github) · [Trust](https://campfyrr.vercel.app/trust?ref=github) · [How it compares](https://campfyrr.vercel.app/research?ref=github)
+It doesn't run agents, run tests, or replace your tracker or CI. Free during early access; then free for one person, $9 per developer a month for teams, and business teammates free. [See what your agent sees](https://campfyrr.vercel.app/demo?ref=github) · [Pricing](https://campfyrr.vercel.app/pricing?ref=github) · [Trust](https://campfyrr.vercel.app/trust?ref=github) · [How it compares](https://campfyrr.vercel.app/research?ref=github)
 
 ---
 
