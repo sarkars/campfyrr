@@ -1,0 +1,30 @@
+# Publishes server.json to the official MCP registry
+# (registry.modelcontextprotocol.io) as io.github.sarkars/campfyrr.
+# GitHub's OIDC token proves this repository belongs to sarkars, so no
+# secret is needed. Runs when server.json changes on main, or by hand.
+# Raise "version" in server.json before each new publish.
+name: Publish to the MCP registry
+
+on:
+  push:
+    branches: [main]
+    paths: [server.json]
+  workflow_dispatch:
+
+permissions:
+  id-token: write
+  contents: read
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install mcp-publisher
+        run: curl -sSL "https://github.com/modelcontextprotocol/registry/releases/latest/download/mcp-publisher_linux_amd64.tar.gz" | tar xz mcp-publisher
+      - name: Check server.json
+        run: ./mcp-publisher validate
+      - name: Sign in with GitHub OIDC
+        run: ./mcp-publisher login github-oidc
+      - name: Publish
+        run: ./mcp-publisher publish
