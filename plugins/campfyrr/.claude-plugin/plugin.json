@@ -1,0 +1,34 @@
+{
+  "name": "campfyrr",
+  "description": "Shared team memory for Claude Code: every teammate's sessions know what the others are changing, what was decided and what was assumed, and the rest of the company follows the work from a link. Never stores your code.",
+  "author": {
+    "name": "Campfyrr",
+    "url": "https://campfyrr.vercel.app"
+  },
+  "homepage": "https://campfyrr.vercel.app",
+  "repository": "https://github.com/sarkars/campfyrr",
+  "keywords": [
+    "team",
+    "memory",
+    "context",
+    "collaboration",
+    "handoff",
+    "decisions",
+    "mcp"
+  ],
+  "userConfig": {
+    "campfyrr_token": {
+      "type": "string",
+      "title": "Campfyrr token",
+      "description": "Your token from https://campfyrr.vercel.app/connect (sign in, then Create a token). Stored in secure storage.",
+      "required": true,
+      "sensitive": true
+    },
+    "campfyrr_url": {
+      "type": "string",
+      "title": "Campfyrr address",
+      "description": "Leave as is unless your team runs its own Campfyrr.",
+      "default": "https://campfyrr.vercel.app"
+    }
+  }
+}

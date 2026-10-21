@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "campfyrr": {
+      "type": "http",
+      "url": "https://campfyrr.vercel.app/api/mcp",
+      "headers": { "Authorization": "Bearer ${user_config.campfyrr_token}" }
+    }
+  }
+}

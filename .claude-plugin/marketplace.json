@@ -1,0 +1,12 @@
+{
+  "name": "campfyrr",
+  "owner": { "name": "Campfyrr", "url": "https://campfyrr.vercel.app" },
+  "description": "Shared team memory for Claude Code.",
+  "plugins": [
+    {
+      "name": "campfyrr",
+      "source": "./plugins/campfyrr",
+      "description": "Shared team memory for Claude Code: every teammate's sessions know what the others are changing, what was decided and what was assumed. Never stores your code."
+    }
+  ]
+}
