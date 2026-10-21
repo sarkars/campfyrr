@@ -5,7 +5,7 @@ Shared team memory for Claude Code. Every teammate's sessions know what the othe
 ## Install
 
 ```
-claude plugin marketplace add sarkars/ghostcursor
+claude plugin marketplace add sarkars/campfyrr
 claude plugin install campfyrr@campfyrr
 ```
 
