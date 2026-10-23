@@ -1,8 +1,10 @@
 # Campfyrr for Claude Code
 
+Campfyrr, shared team memory for Claude Code.
+
 [![team memory: Campfyrr](https://campfyrr.vercel.app/badge.svg)](https://campfyrr.vercel.app/?ref=github)
 
-Shared team memory for Claude Code. Every teammate's sessions know what the others are changing, what was decided and what was assumed, before they touch the code. The rest of the company follows the work from a link. Campfyrr never stores your code.
+Every teammate's sessions know what the others are changing, what was decided and what was assumed, before they touch the code. The rest of the company follows the work from a link. Campfyrr never stores your code.
 
 ## Install
 
@@ -12,6 +14,15 @@ Shared team memory for Claude Code. Every teammate's sessions know what the othe
 4. Paste the token when the install asks for it.
 
 Or paste the one command on https://campfyrr.vercel.app/connect?ref=github into a terminal. It sets up the same hooks and MCP server without the plugin.
+
+## What it answers
+
+- [What is Campfyrr?](https://campfyrr.vercel.app/?ref=github)
+- [Shared memory for Claude Code across a team](https://campfyrr.vercel.app/claude-code-team-memory?ref=github)
+- [How to stop multiple AI coding agents from conflicting on the same codebase](https://campfyrr.vercel.app/answers/agents-changing-same-thing?ref=github)
+- [Claude Code session handoff between developers](https://campfyrr.vercel.app/answers/continue-another-developers-session?ref=github)
+- [Best team memory MCP server for coding agents](https://campfyrr.vercel.app/compare/memory-mcp-servers-vs-team-memory?ref=github)
+- [How can product managers follow what Claude Code agents are doing?](https://campfyrr.vercel.app/answers/people-outside-engineering-follow-agent-work?ref=github)
 
 ## What it does
 
